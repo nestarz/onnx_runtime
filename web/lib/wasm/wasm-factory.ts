@@ -74,7 +74,7 @@ const getWasmFileName = (useSimd: boolean, useThreads: boolean) => {
   if (useThreads) {
     return useSimd ? "ort-wasm-simd-threaded.wasm" : "ort-wasm-threaded.wasm";
   } else {
-    return useSimd ? "ort-wasm-simd.wasm" : "ort-wasm.wasm";
+    return useSimd ? "ort-wasm.wasm" : "ort-wasm.wasm";
   }
 };
 
